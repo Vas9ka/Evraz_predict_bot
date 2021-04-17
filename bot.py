@@ -89,6 +89,7 @@ def handle_document(message):
 @server.route('/' + TOKEN, methods=['POST'])
 def getMessage():
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
+    return "OK!"
 
 @server.route("/")
 def webhook():
