@@ -1,0 +1,7 @@
+numpy
+flask
+telebot
+gunicorn
+pyTelegramBotAPI
+pillow
+catboost
